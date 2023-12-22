@@ -32,7 +32,7 @@ def clientes(request):
 
 def signout(request):
     logout(request)
-    return redirect('home')
+    return redirect('signup')
 
 
 def signin(request):
